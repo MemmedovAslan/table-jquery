@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    padding: 50px;
+    background-image: url(https://i.stack.imgur.com/vhoa0.jpg);
+    background-position-x: 1px;
+    background-size: cover;
+}
+
+button {
+    cursor: pointer;
+}
+
+table {
+    width: 60%;
+    position: relative;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(255, 255, 255);
+}
+
+#elaveet {
+    position: absolute;
+    top: 30px;
+    left: 22%;
+    font-size: 20px;
+    padding: 5px 40px;
+}
+
+.a {
+    width: 40%;
+    height: 40px;
+    position: absolute;
+    right: 22.2%;
+    top: 30px;
+}
+
+.a input {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    outline: none;
+    padding: 0 10px;
+    font-size: 18px;
+}
+
+.a button {
+    position: relative;
+    width: 18%;
+    height: 100%;
+    font-size: 17px;
+    vertical-align: top;
+}
+
+#esas,
+#esas2 {
+    width: 60%;
+    height: 80vh;
+    top: 50%;
+    left: 50%;
+    border: 1px solid black;
+    background-color: white;
+    display: none;
+}
+
+#esas {
+    position: relative;
+    transform: translateX(-50%);
+    z-index: 6;
+    padding: 100px;
+}
+
+#esas2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 7;
+    padding: 150px 100px;
+    text-align: center;
+}
+
+#esas2 button {
+    font-size: 20px;
+    padding: 5px 15px;
+    margin-top: 20px;
+}
+
+#esas2 button:nth-child(2) {
+    margin-right: 10px;
+}
+
+
+/* ????????????????????????????????????????????????????????????????????????????? */
+
+#create,
+#update {
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+    display: none;
+    bottom: 20px;
+}
+
+#create {
+    z-index: 1;
+}
+
+#bagla {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 26px;
+}
+
+td,
+th {
+    padding: 10px 30px;
+    text-align: left;
+}
+
+td:nth-child(5) button {
+    width: 60px;
+    padding: 5px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+td:nth-child(5) button:first-child {
+    background-color: rgb(0, 128, 96);
+}
+
+td:nth-child(5) button {
+    background-color: rgb(255, 30, 0);
+}
+
+ul li {
+    margin: 50px;
+    list-style: none;
+}
+
+input {
+    height: 40px;
+}
+
+span {
+    height: 40px;
+    width: 150px;
+    display: inline-block;
+    font-size: 30px;
+    vertical-align: middle;
+}

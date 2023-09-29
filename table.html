@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="table.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <button id="elaveet">Add</button>
+    <div class="a">
+        <input id="axtar" type="text" placeholder="Search...">
+        <button id="axtarr">Tap</button>
+    </div>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>№</th>
+                <th>Firstname</th>
+                <th>Surname</th>
+                <th>Age</th>
+                <th id="cstm">Custom</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Aslan</td>
+                <td>Məmmədov</td>
+                <td>20</td>
+                <td><button class="edit">Edit</button> <button class="delete">Delete</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div id="esas">
+        <ul>
+            <li><span>Firstname:</span> <input id="ad" type="text"></li>
+            <li><span>Surname:</span> <input id="soyad" type="text"></li>
+            <li><span>Age:</span> <input id="yas" type="text"></li>
+        </ul>
+        <button id="create">Create</button>
+        <button id="update">Update</button>
+        <button id="bagla">X</button>
+    </div>
+    <div id="esas2">
+        <h1>Silinsin?</h1>
+        <button class="he">Hə</button>
+        <button class="yox">Yox</button>
+
+    </div>
+    <script src="table.js"></script>
+</body>
+
+</html>
